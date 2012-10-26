@@ -1,0 +1,2 @@
+module SeguindoHelper
+end

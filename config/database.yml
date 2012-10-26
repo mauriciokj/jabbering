@@ -17,8 +17,9 @@ development:
   encoding: unicode
   database: jabbering_development
   pool: 5
-  username: jabbering
-  password:
+  host: localhost
+  username: facilitador
+  password: facilitador
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -43,13 +44,15 @@ test:
   encoding: unicode
   database: jabbering_test
   pool: 5
-  username: jabbering
-  password:
+  host: localhost
+  username: facilitador
+  password: facilitador
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: jabbering_production
+  database: jabbering_development
   pool: 5
-  username: jabbering
-  password:
+  host: localhost
+  username: facilitador
+  password: facilitador

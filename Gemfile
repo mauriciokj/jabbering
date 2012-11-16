@@ -7,4 +7,6 @@ gem 'devise'
 gem 'active_scaffold', :git => 'git://github.com/activescaffold/active_scaffold.git'
 gem 'sass-rails'
 gem 'thin'
-
+gem 'factory_girl_rails'
+gem 'rspec-rails'
+gem 'guard-rspec'
